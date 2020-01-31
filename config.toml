@@ -1,0 +1,96 @@
+baseurl = "https://pages.gitlab.io/"
+contentdir    = "content"
+layoutdir     = "layouts"
+publishdir    = "public"
+title = "Marco Patti"
+canonifyurls  = true
+footnotereturnlinkcontents = "↩"
+
+DefaultContentLanguage = "en"
+theme = ["beautifulhugo", "Lanyon"]
+metaDataFormat = "yaml"
+pygmentsUseClasses = true
+pygmentCodeFences = true
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[markup.goldmark.renderer]
+unsafe= true
+  
+[params]
+brand = "patti.dev"
+comments = true
+commit = false
+dateformat = "January 2, 2006"
+description = "Marco Patti"
+errorpage = "https://res.cloudinary.com/dbwa3pyqs/image/upload/v1574871202/avataaars_1.png"
+favicon = "https://res.cloudinary.com/dbwa3pyqs/image/upload/v1574871320/favicon.ico"
+logo = "https://res.cloudinary.com/dbwa3pyqs/image/upload/v1574871202/avataaars.png"
+rss = true
+subtitle = "Coder - Thinker - Writer"
+
+[outputs]
+  home = [ "HTML", "RSS" ]
+[outputFormats]
+[outputFormats.RSS]
+  mediatype = "application/rss"
+
+
+
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+email = "pattimrk@gmail.com"
+facebook = ""
+github = "pttmrk"
+linkedin = ""
+name = "Marco Patti"
+twitter = "pttmrk"
+website = "https://pttmrk.github.io"
+
+[[menu.main]]
+identifier = "Musings"
+name = "Musings"
+parent = "Categories"
+weight = 2
+[[menu.main]]
+identifier = "Lists"
+name = "Lists"
+parent = "Categories"
+weight = 1
+[[menu.main]]
+name = "About"
+url = "about"
+weight = 3
+[[menu.main]]
+identifier = "Blog"
+name = "Blog"
+url="archive"
+weight = 2
+[[menu.main]]
+identifier = "Books"
+name = "Books"
+url = "books"
+parent = "Categories"
+weight = 2
+[[menu.main]]
+identifier = "Mental Models"
+name = "Mental Models"
+parent = "Categories"
+url = "mental-models"
+weight = 2
+[[menu.main]]
+identifier = "Categories"
+name = "My Projects"
+weight = 1
+

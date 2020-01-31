@@ -1,0 +1,16 @@
+<!--
+If you want to include any custom html just before </head>, put it here
+-->
+
+<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+{{ if .Params.notebook }}
+<link href="{{ $.Site.BaseURL }}css/jupyter.css" rel="stylesheet" type="text/css">
+{{ end }}
+{{ if .Params.books }}
+<link href="{{ $.Site.BaseURL }}css/books.css" rel="stylesheet" type="text/css">
+<script src="js/modernizr.custom.js"></script>
+{{ end }}
+{{ if .Params.nopager }}
+<link href="{{ $.Site.BaseURL }}css/pager.css" rel="stylesheet" type="text/css">
+{{ end }}
