@@ -429,7 +429,7 @@ footer .theme-by {
 
 .post-entry {
     width: 100%;
-    word-break: break-all;
+    word-break: normal;
 }
 
 .post-image {
@@ -805,6 +805,7 @@ td.code pre {
     background-size: 3em 3em;
     background-position: 0px 10px;
     border-left: 7px solid #444;
+    word-wrap: normal;
 }
 
 code table,
