@@ -8,6 +8,7 @@ postmeta: false
 notoc: true
 seealso: false
 books: true
+sharebutton: true
 ---
 
 <head>

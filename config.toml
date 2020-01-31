@@ -19,6 +19,8 @@ unsafe= true
   
 [params]
 brand = "patti.dev"
+initials = "MP"
+selfHosted = true
 comments = true
 commit = false
 dateformat = "January 2, 2006"
