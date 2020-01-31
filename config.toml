@@ -13,14 +13,12 @@ pygmentsUseClasses = true
 pygmentCodeFences = true
 #disqusShortname = "XXX"
 #googleAnalytics = "XXX"
-
 [markup.goldmark.renderer]
 unsafe= true
-  
 [params]
 brand = "patti.dev"
-initials = "MP"
 selfHosted = true
+hideAuthor = true
 comments = true
 commit = false
 dateformat = "January 2, 2006"
@@ -61,22 +59,18 @@ twitter = "pttmrk"
 website = "https://pttmrk.github.io"
 
 [[menu.main]]
-identifier = "Musings"
-name = "Musings"
-parent = "Categories"
-weight = 2
-[[menu.main]]
-identifier = "Lists"
-name = "Lists"
-parent = "Categories"
-weight = 1
-[[menu.main]]
 name = "About"
 url = "about"
 weight = 3
 [[menu.main]]
-identifier = "Blog"
-name = "Blog"
+identifier = "blog"
+name = "blog"
+url="blog"
+weight = 2
+[[menu.main]]
+parent = "Categories"
+identifier = "archive"
+name = "archive"
 url="archive"
 weight = 2
 [[menu.main]]
@@ -93,6 +87,6 @@ url = "mental-models"
 weight = 2
 [[menu.main]]
 identifier = "Categories"
-name = "My Projects"
+name = "Goodies"
 weight = 1
 
