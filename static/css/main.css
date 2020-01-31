@@ -76,6 +76,12 @@ hr.small {
     }
 }
 
+#fix for code wrap not working
+.highlight td:first-child pre, .highlight pre
+{
+    overflow: auto !important;
+ }
+
 .main-explain-area {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     padding: 15px inherit;
