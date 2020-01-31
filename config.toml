@@ -1,4 +1,4 @@
-baseurl = "https://pages.gitlab.io/"
+baseurl = "https://patti.netlify.com/"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
