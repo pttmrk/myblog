@@ -21,7 +21,9 @@ The idea was introduced in its current form by Charlie Munger, of Berkshire Hath
 
 Among the many followers of Buffett and Munger who explored this premise, the best contribution is coming from the wonderful [Farnam Street](https://www.fs.blog/), who has brought mental models into mainstream discourse. Shane's introductory video is well worth a look:
 
-<div style="text-align: center"><iframe src="https://player.vimeo.com/video/177585900" width="448" height="252" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+{{< vimeo 177585900>}}
+
+---
 
 What kinds of knowledge are we talking about adding to our repertoire?
 
@@ -46,7 +48,7 @@ The main objective in studying and learning mental models is to be able to under
 
 > "All models are wrong, but some are useful."
 
-I have come across a wide variety of attempts to build similar lists [^1], but I have always found those incomplete, very limited in scope and presented in a way that made them difficult to remember.  
+I have come across a wide variety of attempts to build similar lists[^1], but I have always found those incomplete, very limited in scope and presented in a way that made them difficult to remember.  
 I will try to present a broad selection of useful models and ideas, without sprawling on irrelevant or redundant concepts and providing an example and a visual cue for each of them to help recalling. A lot of entries are taken from existing lists (that I encourage you to check out!) but many more were added by me.
 
 # The Models

@@ -1,7 +1,9 @@
 ---
 title: Photoswipe Gallery Sample
 subtitle: Making a Gallery
+type: post
 date: 2017-03-20
+postmeta: true
 tags: ["example", "photoswipe"]
 ---
 

@@ -62,16 +62,6 @@
 </footer>
 
 {{- if .Site.Params.selfHosted -}}
-#barefoot for footnotes
-<link rel="stylesheet" href="/css/barefoot.min.css">
-
-<script src="/js/barefoot.min.js"></script>
-<script>
-  lf = new BareFoot();
-  lf.init();
-</script>
-
-<script src="{{ "js/jquery.min.js" | absURL }}"></script>
 <script src="{{ "js/katex.min.js" | absURL }}"></script>
 <script src="{{ "js/auto-render.min.js" | absURL }}"></script>
 <script src="{{ "js/bootstrap.min.js" | absURL }}"></script>

@@ -4,7 +4,6 @@ title: About me
 subtitle: ""
 description: Marco Patti - About me
 nocomment: true
-postmeta: false
 notoc: true
 seealso: false
 nopager: true
