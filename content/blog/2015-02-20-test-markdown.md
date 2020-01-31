@@ -28,8 +28,8 @@ How about a yummy crepe?
 Here's a code chunk with syntax highlighting:
 
 ```javascript
-  var foo = function(x) {
-    return(x + 5);
-  }
-  foo(3)
+var foo = function(x) {
+  return(x + 5);
+}
+foo(3)
 ```

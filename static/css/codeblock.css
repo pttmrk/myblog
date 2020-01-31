@@ -3,6 +3,9 @@
 .chroma .ln { 
     margin-right: 0.8em; 
     padding: 0 0.4em 0 0.4em; 
+    
+    padding-left: 10px;
+    padding-right: 10px;
   }
   pre code.hljs {
     padding: 9.5px;
@@ -12,7 +15,8 @@
     overflow-wrap: normal;
     white-space: pre;
   }
-  
+
+
   @media only screen and (min-width: 767px) {
     pre code {
       overflow: auto;
