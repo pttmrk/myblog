@@ -18,9 +18,9 @@
 - id: newerPosts
   translation: "Newer Posts"
 - id: previousPost
-  translation: "Back"
+  translation: " "
 - id: nextPost
-  translation: "Next"
+  translation: " "
 - id: readTime
   translation: "minutes"
 - id: words
