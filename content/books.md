@@ -4,7 +4,6 @@ subtitle: "A timeless list of favorites"
 date: 2018-05-31 T14:23:05+02:00
 type: page
 nocomment: true
-postmeta: false
 notoc: true
 seealso: false
 books: true

@@ -32,13 +32,11 @@
         <p class="credits copyright text-muted">
           {{ if .Site.Author.name }}
           {{ if .Site.Author.website }}
-          <a href="{{ .Site.Author.website }}">{{ .Site.Author.name }}</a>
-          {{ else }}
-          {{ .Site.Author.name }}
+          <a href="{{ .Site.Author.website }}">{{ .Site.Author.name }}</a> &nbsp;&bull;
           {{ end }}
           {{ end }}
 
-          &nbsp;&bull;&nbsp;&copy;
+          &nbsp;&copy;
           {{ if .Site.Params.since }}
           {{ .Site.Params.since }} - {{ .Site.LastChange.Format "2006" }}
           {{ else }}

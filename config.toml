@@ -56,7 +56,7 @@ github = "pttmrk"
 linkedin = ""
 name = "Marco Patti"
 twitter = "pttmrk"
-website = "https://pttmrk.github.io"
+#website = "https://pttmrk.github.io"
 
 [[menu.main]]
 name = "About"
