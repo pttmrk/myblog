@@ -7,7 +7,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="{{ "" | absLangURL }}">{{ .Site.Params.brand }}</a>
+      <a class="navbar-brand" href="{{ "" | absLangURL }}">
+        <img class="avatar-img" src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"
+          style="margin-top: -5px; max-width: 1em; display:inline" />
+        {{ .Site.Params.brand }}</a>
     </div>
 
     <div class="collapse navbar-collapse" id="main-navbar">
