@@ -17,6 +17,10 @@ Formula 2: (same formula, different delimiter)
 \phi = \frac{(1+\sqrt{5})}{2} = 1.6180339887\cdots
 \\]
 
+<div class="puzzle">
+My content goes in here!
+</div>
+
 Additional details can be found on [GitHub](https://github.com/Khan/KaTeX) or on the [Wiki](http://tiddlywiki.com/plugins/tiddlywiki/katex/).
 <!--more-->
 

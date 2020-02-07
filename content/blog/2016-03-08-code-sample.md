@@ -1,6 +1,8 @@
 ---
 title: Code Sample
 subtitle: Using Hugo or Pygments
+type: post
+postmeta: true
 date: 2016-03-08
 tags: ["example", "code"]
 ---
