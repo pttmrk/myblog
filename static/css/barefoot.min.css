@@ -11,7 +11,7 @@
 }
 
 .footnote-button {
-	background: hsla(206, 35%, 44%, .35);
+	background: #497799;
 	border: 0;
 	border-radius: .475em;
 	cursor: pointer;
@@ -29,11 +29,13 @@
 	transition-property: background;
 	vertical-align: super;
 	width: 1.5em;
-	z-index: 1
+    z-index: 1;
+    bottom: 0px;
+    top: 2px;
 }
 
 .footnote-button:after {
-	color: hsla(206, 35%, 44%, .5);
+	color: white;
 	content: attr(data-fn-number);
 	display: block;
 	font-size: .57em;
