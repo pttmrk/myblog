@@ -3,6 +3,7 @@ title: Mental Models
 date: 2018-06-07 15:23:44 +0000
 margin-bottom: 10px;
 notoc: true
+nopager: true
 
 ---
 _This page was born as my modest attempt to summarize the entire spectre of human knowledge._

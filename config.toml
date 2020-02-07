@@ -16,7 +16,7 @@ pygmentCodeFences = true
 [markup.goldmark.renderer]
 unsafe= true
 [params]
-brand = "patti.dev"
+brand = "Marco Patti"
 selfHosted = true
 hideAuthor = true
 comments = true
