@@ -17,9 +17,9 @@
 	cursor: pointer;
 	display: inline-block;
 	font-size: 1rem;
-	height: .95em;
+	height: 1.2em;
 	line-height: 0;
-	margin: 0 .1em 0 .2em;
+	margin: 0 .1em 0 .4em;
 	padding: .35em;
 	position: relative;
 	top: -.2em;
@@ -38,7 +38,7 @@
 	color: white;
 	content: attr(data-fn-number);
 	display: block;
-	font-size: .57em;
+	font-size: .8em;
 	font-weight: 700;
 	left: 50%;
 	position: absolute;
